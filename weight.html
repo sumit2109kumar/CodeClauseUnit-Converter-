@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="icons8-bmo-32.png">
+    <script src="weight.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="nav-container">
+            
+            <div id="logo">
+                <img src="icons8-bmo-32.png" alt="unit-converter">
+            </div>
+            <nav id="navbar">
+                <ul>
+                    <li class="item"><a href="time.html">Time</a></li>
+                    <li class="item"><a href="length.html">Length</a></li>
+                    <li class="item"><a href="area.html">Area</a></li>
+                    <li class="item"><a href="volume.html">Volume</a></li>
+                    <li class="item"><a href="weight.html">Weight</a></li>
+                    <li class="item"><a href="temperature.html">Temparature</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        
+        <div class="main">
+            <div id="calculator">
+                <h1>Weight Converter</h1><br>
+                <div class="maincontainer">
+                    <form class="len">
+                        <div class="box">
+                            <div class="items">
+                                <label>From Unit:</label>
+                                <select id="fromUnit">
+                                    <option value="1">Kilogram</option>
+                                    <option value="2">Gram</option>
+                                    <option value="3">Milligram</option>
+                                    <option value="4">Metric Ton</option>
+                                    <option value="5">Long Ton</option>
+                                    <option value="6">Short Ton</option>
+                                    <option value="7">Pound</option>
+                                    <option value="8">Ounce</option>
+                                    <option value="9">Carrat</option>
+                                    <option value="10">Atomic Mass Unit</option>
+                                </select>
+                            </div>
+                            <div class="items">
+                                <label>To Unit:</label>
+                                <select id="toUnit">
+                                    <option value="1">Kilogram</option>
+                                    <option value="2">Gram</option>
+                                    <option value="3">Milligram</option>
+                                    <option value="4">Metric Ton</option>
+                                    <option value="5">Long Ton</option>
+                                    <option value="6">Short Ton</option>
+                                    <option value="7">Pound</option>
+                                    <option value="8">Ounce</option>
+                                    <option value="9">Carrat</option>
+                                    <option value="10">Atomic Mass Unit</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="items">
+                                <label>Enter Weight:</label>
+                                <input type="number" id="Input">
+                            </div>
+                            <div class="items">
+                                <label>Result:</label>
+                                <div id="result"></div>
+                            </div>
+                        </div>
+                </div>
+                <div class="main-btn">
+                    <button class="btn" id = "resetBtn">Reset</button>
+                    <button class="btn" id = "calculateBtn">Calculate</button>
+                    <br><br><br>
+                </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+</script>
+    <footer>
+        <div class="foot">
+            Copyright &copy;2023| All rights reserved!
+        </div>
+    </footer>
+</body>
+
+</html>

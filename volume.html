@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="icons8-bmo-32.png">
+    <script src="volume.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="nav-container">
+            
+            <div id="logo">
+                <img src="icons8-bmo-32.png" alt="unit-converter">
+            </div>
+            
+            <nav id="navbar">
+                <ul>
+                    <li class="item"><a href="time.html">Time</a></li>
+                    <li class="item"><a href="length.html">Length</a></li>
+                    <li class="item"><a href="area.html">Area</a></li>
+                    <li class="item"><a href="volume.html">Volume</a></li>
+                    <li class="item"><a href="weight.html">Weight</a></li>
+                    <li class="item"><a href="temperature.html">Temparature</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="main">
+            <div id="calculator">
+                <h1>Volume Converter</h1><br>
+                <div class="maincontainer">
+                    <form class="len">
+                        <div class="box">
+                            <div class="items">
+                                <label>From Unit:</label>
+                                <select id="fromUnit">
+                                    <option value="1">Cubic Meter</option>
+                                    <option value="2">Cubic Kilometer</option>
+                                    <option value="3">Cubic Centimeter</option>
+                                    <option value="4">Cubic Millimeter</option>
+                                    <option value="5">Liter</option>
+                                    <option value="6">Milliliter</option>
+                                    <option value="7">US Gallon</option>
+                                    <option value="8">US Quart</option>
+                                    <option value="9">US Pint</option>
+                                    <option value="10">US Cup</option>
+                                    <option value="11">US Fluid Ounce</option>
+                                    <option value="12">US Table Spoon</option>
+                                    <option value="13">US Tea Spoon</option>
+                                    <option value="14">Imperial Gallon</option>
+                                    <option value="15">Imperial Quart</option>
+                                    <option value="16">Imperial Pint</option>
+                                    <option value="17">Imperial Fluid Ounce</option>
+                                    <option value="18">Imperial Table Spoon</option>
+                                    <option value="19">Imperial Tea Spoon</option>
+                                    <option value="20">Cubic Mile</option>
+                                    <option value="21">Cubic Yard</option>
+                                    <option value="22">Cubic Foot</option>
+                                    <option value="23">Cubic Inch</option>
+                                </select>
+                            </div>
+                            <div class="items">
+                                <label>To Unit:</label>
+                                <select id="toUnit">
+                                    <option value="1">Cubic Meter</option>
+                                    <option value="2">Cubic Kilometer</option>
+                                    <option value="3">Cubic Centimeter</option>
+                                    <option value="4">Cubic Millimeter</option>
+                                    <option value="5">Liter</option>
+                                    <option value="6">Milliliter</option>
+                                    <option value="7">US Gallon</option>
+                                    <option value="8">US Quart</option>
+                                    <option value="9">US Pint</option>
+                                    <option value="10">US Cup</option>
+                                    <option value="11">US Fluid Ounce</option>
+                                    <option value="12">US Table Spoon</option>
+                                    <option value="13">US Tea Spoon</option>
+                                    <option value="14">Imperial Gallon</option>
+                                    <option value="15">Imperial Quart</option>
+                                    <option value="16">Imperial Pint</option>
+                                    <option value="17">Imperial Fluid Ounce</option>
+                                    <option value="18">Imperial Table Spoon</option>
+                                    <option value="19">Imperial Tea Spoon</option>
+                                    <option value="20">Cubic Mile</option>
+                                    <option value="21">Cubic Yard</option>
+                                    <option value="22">Cubic Foot</option>
+                                    <option value="23">Cubic Inch</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="items">
+                                <label>Enter Volume:</label>
+                                <input type="number" id="Input">
+                            </div>
+                            <div class="items">
+                                <label>Result:</label>
+                                <div id="result"></div>
+                            </div>
+                        </div>
+                </div>
+                <div class="main-btn">
+                    <button class="btn" id = "resetBtn">Reset</button>
+                    <button class="btn" id = "calculateBtn">Calculate</button>
+                    <br><br><br>
+                </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+</script>
+    <footer>
+        <div class="foot">
+            Copyright &copy;2023| All rights reserved!
+        </div>
+    </footer>
+</body>
+
+</html>
